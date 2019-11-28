@@ -7,8 +7,6 @@ target 'StackOverflow' do
 
   # Pods for StackOverflow
 
-  pod 'TimeZoneLocate', '~> 0.4'
-
   target 'StackOverflowTests' do
     inherit! :search_paths
     # Pods for testing
