@@ -1,0 +1,1083 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01219B3AB7F83A652FA3B16594DF31CE /* TimeZoneLocate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB1DCC021FDB20736D5858CB9F28DC /* TimeZoneLocate.swift */; };
+		06397207EFC249B9EDD83A4B3EBF19E7 /* Pods-StackOverflow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F68C70A89B8CC17E953138C38E3B82 /* Pods-StackOverflow-dummy.m */; };
+		16F0D5C14BEAA399936399629DFB2208 /* TimeZoneLocate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3814633DB3047358182E17F5BC2A850A /* TimeZoneLocate.bundle */; };
+		2480EF16CC087B4272EEDED0CF5A8EAE /* timezones.json in Resources */ = {isa = PBXBuildFile; fileRef = 0918FA29CA146C5F4B6FF7B014BAC680 /* timezones.json */; };
+		341DC9F849CCF486C59950848CB3305F /* Pods-StackOverflowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE920C3837A33A1CB1387A9C10B0CED /* Pods-StackOverflowTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3ACF3770629CE271AC6CC82A51A42BB4 /* TimeZoneLocate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81850D9899166F98753570ABFF13B086 /* TimeZoneLocate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BF31D956A35DEBA0AC752632B3EF8D /* Pods-StackOverflowUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA33F2D55222AA8D6850D51F10DE1EB /* Pods-StackOverflowUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F4BCF36F421C51A381F7DC14104802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */; };
+		69CA4CADB40F53D9A093BDD3F3425B6D /* Pods-StackOverflowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9121D698FC475453BF314E680613628 /* Pods-StackOverflowTests-dummy.m */; };
+		84D3FBD7E4DF2B524C29848485288245 /* Pods-StackOverflowUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01457C06CC43B2AFEED7DE00E9E4F2DA /* Pods-StackOverflowUITests-dummy.m */; };
+		A5ADD26DEB71868A8DCA8154E7BB3810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86653B667F5FC3422EEE206E2E99BB81 /* UIKit.framework */; };
+		B3995AD90ACCB9F48B46D96822EDCA82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */; };
+		BC9572817B741149A9C30ABEBC521A7A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE8BEBE86093C1EC5364CAECF23BCD9 /* CoreLocation.framework */; };
+		C74A216A3C69EC1A47E5D8E2CA48F2BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */; };
+		CDC5030052A944AD0A881A54923E80CE /* Pods-StackOverflow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D95BB401CFF85EC8A2ED11EF9986E6 /* Pods-StackOverflow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF643764C626F24341CDA9428BDD853D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */; };
+		D85E561D59F9B245544DC7B1500E74D4 /* TimeZoneLocate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE8EAEF39AE5CBA8AEF02B188FA725 /* TimeZoneLocate-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A476D5434936116EF7799806E8B8754 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FA21164111E4C5C8D02A943B4D46A3;
+			remoteInfo = "Pods-StackOverflow";
+		};
+		2E44E096848B9CAC1498CE6230CD824A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A785F8D5B1873ECAD1E3D47CB151A342;
+			remoteInfo = TimeZoneLocate;
+		};
+		7BC18866709259C8D3BCA062AA1C103F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1FA21164111E4C5C8D02A943B4D46A3;
+			remoteInfo = "Pods-StackOverflow";
+		};
+		E81F557F75DB104B2BD6579BF166CD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D91AC2D59E765B34E670936229361EF3;
+			remoteInfo = "TimeZoneLocate-TimeZoneLocate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01457C06CC43B2AFEED7DE00E9E4F2DA /* Pods-StackOverflowUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackOverflowUITests-dummy.m"; sourceTree = "<group>"; };
+		0918FA29CA146C5F4B6FF7B014BAC680 /* timezones.json */ = {isa = PBXFileReference; includeInIndex = 1; name = timezones.json; path = Pod/Assets/timezones.json; sourceTree = "<group>"; };
+		1EDA2E4A84922D98DE94E7078AC4D2BC /* Pods-StackOverflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CE920C3837A33A1CB1387A9C10B0CED /* Pods-StackOverflowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackOverflowTests-umbrella.h"; sourceTree = "<group>"; };
+		304B3D29A0D9C4D2AFAB36E2F78E1319 /* Pods-StackOverflow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StackOverflow.modulemap"; sourceTree = "<group>"; };
+		3497804A60F8826AB183346777AE308D /* Pods_StackOverflowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StackOverflowTests.framework; path = "Pods-StackOverflowTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3814633DB3047358182E17F5BC2A850A /* TimeZoneLocate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimeZoneLocate.bundle; path = "TimeZoneLocate-TimeZoneLocate.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5E227701BD6247B58A1350745394E5 /* Pods-StackOverflowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StackOverflowTests.modulemap"; sourceTree = "<group>"; };
+		3CF61A8AFAD9B0B2261FB774BFE4301A /* Pods-StackOverflowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43E18908A568E82B2713B7DDD32D1263 /* Pods-StackOverflowTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflowTests-Info.plist"; sourceTree = "<group>"; };
+		49703AEF223FC09D261136E7EB143280 /* Pods_StackOverflow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StackOverflow.framework; path = "Pods-StackOverflow.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE8BEBE86093C1EC5364CAECF23BCD9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		5241EA4323F1757E2F02EEC378377F92 /* TimeZoneLocate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeZoneLocate.framework; path = TimeZoneLocate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5901E708C733EE9DBAC26D74C76B30F8 /* Pods-StackOverflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflow.debug.xcconfig"; sourceTree = "<group>"; };
+		5926B5BF1712D98394CAFF41F213EC6C /* Pods-StackOverflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflow.release.xcconfig"; sourceTree = "<group>"; };
+		6501F00FB7AD3D32322EBA7C4BC089CB /* Pods-StackOverflowUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflowUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C2BC4C2A2BF3F386AA00099EC24170E /* TimeZoneLocate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimeZoneLocate.modulemap; sourceTree = "<group>"; };
+		71A3E777A303A494358593F1FA89771E /* Pods-StackOverflowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		75DE8EAEF39AE5CBA8AEF02B188FA725 /* TimeZoneLocate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeZoneLocate-dummy.m"; sourceTree = "<group>"; };
+		7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		81850D9899166F98753570ABFF13B086 /* TimeZoneLocate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeZoneLocate-umbrella.h"; sourceTree = "<group>"; };
+		86653B667F5FC3422EEE206E2E99BB81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8790B16DC6376305E3C20A5180D5B35E /* Pods-StackOverflow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackOverflow-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91A685D11DCD27EA76A76D09A9DD388A /* ResourceBundle-TimeZoneLocate-TimeZoneLocate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TimeZoneLocate-TimeZoneLocate-Info.plist"; sourceTree = "<group>"; };
+		94BE7FB2C62FC3073676E087F871B96F /* Pods-StackOverflowUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflowUITests-Info.plist"; sourceTree = "<group>"; };
+		AB43E85C59C8888DEC2FB2B1D367FA66 /* Pods-StackOverflowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflowTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADA33F2D55222AA8D6850D51F10DE1EB /* Pods-StackOverflowUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackOverflowUITests-umbrella.h"; sourceTree = "<group>"; };
+		AE28744401A7AB82D7C5FC7C4747C4E5 /* Pods-StackOverflowUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackOverflowUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B62CCF666523EA65BB7CE3B646A10E4C /* Pods-StackOverflow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflow-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9D95BB401CFF85EC8A2ED11EF9986E6 /* Pods-StackOverflow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StackOverflow-umbrella.h"; sourceTree = "<group>"; };
+		BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeZoneLocate.xcconfig; sourceTree = "<group>"; };
+		C344913BCC7E98FCDAB82DF1D198663D /* Pods-StackOverflowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StackOverflowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C78BCFF091465007FB7561031955F122 /* Pods_StackOverflowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StackOverflowUITests.framework; path = "Pods-StackOverflowUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA2537BAE53BB338803F4B17124DF9F /* TimeZoneLocate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeZoneLocate-prefix.pch"; sourceTree = "<group>"; };
+		D8B919DD79AB500D2ACF96A9D32D696C /* TimeZoneLocate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimeZoneLocate-Info.plist"; sourceTree = "<group>"; };
+		DF1C4C3E9D4AE74791E3D82908CE4CB3 /* Pods-StackOverflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StackOverflowTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0135C751BB0959F81C4EA641F441449 /* Pods-StackOverflowUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StackOverflowUITests.modulemap"; sourceTree = "<group>"; };
+		F2F68C70A89B8CC17E953138C38E3B82 /* Pods-StackOverflow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackOverflow-dummy.m"; sourceTree = "<group>"; };
+		F2FB1DCC021FDB20736D5858CB9F28DC /* TimeZoneLocate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeZoneLocate.swift; path = Pod/Classes/TimeZoneLocate.swift; sourceTree = "<group>"; };
+		F3D6EF4A04CE2A103D1E37C97B064B0B /* Pods-StackOverflow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StackOverflow-frameworks.sh"; sourceTree = "<group>"; };
+		F9121D698FC475453BF314E680613628 /* Pods-StackOverflowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StackOverflowTests-dummy.m"; sourceTree = "<group>"; };
+		FFC75D326A23056D887DABEA976F1282 /* Pods-StackOverflow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StackOverflow-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC1C95A9C053D4E98CBA2E3C99F227B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74A216A3C69EC1A47E5D8E2CA48F2BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A3EBA18146A6E10A65E7D4FB961A326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3995AD90ACCB9F48B46D96822EDCA82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A780517DE08886EC0E30B90BCF16F701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9572817B741149A9C30ABEBC521A7A /* CoreLocation.framework in Frameworks */,
+				CF643764C626F24341CDA9428BDD853D /* Foundation.framework in Frameworks */,
+				A5ADD26DEB71868A8DCA8154E7BB3810 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCA159780858250FC3D9092D4F8F141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F4BCF36F421C51A381F7DC14104802 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A4578EF3A9E9DA703BAE1F659A9F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0456A6EC9D8E6B389B9984332BD4117B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D7627CE3E1553FE0D27FB4619F671C7 /* TimeZoneLocate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5C67DFA15C506975D357AD91CF2D1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E50A35087ED58A60F91EA3ADE6B5159 /* Pods-StackOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5E227701BD6247B58A1350745394E5 /* Pods-StackOverflowTests.modulemap */,
+				C344913BCC7E98FCDAB82DF1D198663D /* Pods-StackOverflowTests-acknowledgements.markdown */,
+				AB43E85C59C8888DEC2FB2B1D367FA66 /* Pods-StackOverflowTests-acknowledgements.plist */,
+				F9121D698FC475453BF314E680613628 /* Pods-StackOverflowTests-dummy.m */,
+				43E18908A568E82B2713B7DDD32D1263 /* Pods-StackOverflowTests-Info.plist */,
+				2CE920C3837A33A1CB1387A9C10B0CED /* Pods-StackOverflowTests-umbrella.h */,
+				1EDA2E4A84922D98DE94E7078AC4D2BC /* Pods-StackOverflowTests.debug.xcconfig */,
+				DF1C4C3E9D4AE74791E3D82908CE4CB3 /* Pods-StackOverflowTests.release.xcconfig */,
+			);
+			name = "Pods-StackOverflowTests";
+			path = "Target Support Files/Pods-StackOverflowTests";
+			sourceTree = "<group>";
+		};
+		4D7627CE3E1553FE0D27FB4619F671C7 /* TimeZoneLocate */ = {
+			isa = PBXGroup;
+			children = (
+				F2FB1DCC021FDB20736D5858CB9F28DC /* TimeZoneLocate.swift */,
+				E82C911D10B0E5FAA1B6C853C0F7D488 /* Resources */,
+				CE41637A02055A39975395DC6447E437 /* Support Files */,
+			);
+			name = TimeZoneLocate;
+			path = TimeZoneLocate;
+			sourceTree = "<group>";
+		};
+		6D517ED7161B1BA30EB93A37EEDD0F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49703AEF223FC09D261136E7EB143280 /* Pods_StackOverflow.framework */,
+				3497804A60F8826AB183346777AE308D /* Pods_StackOverflowTests.framework */,
+				C78BCFF091465007FB7561031955F122 /* Pods_StackOverflowUITests.framework */,
+				3814633DB3047358182E17F5BC2A850A /* TimeZoneLocate.bundle */,
+				5241EA4323F1757E2F02EEC378377F92 /* TimeZoneLocate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				0456A6EC9D8E6B389B9984332BD4117B /* Pods */,
+				6D517ED7161B1BA30EB93A37EEDD0F21 /* Products */,
+				E181044BDFE5C8DAD40B87E0A80D9A4E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		937B2C47D9097DE9EA762DC5B12C396C /* Pods-StackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				304B3D29A0D9C4D2AFAB36E2F78E1319 /* Pods-StackOverflow.modulemap */,
+				8790B16DC6376305E3C20A5180D5B35E /* Pods-StackOverflow-acknowledgements.markdown */,
+				B62CCF666523EA65BB7CE3B646A10E4C /* Pods-StackOverflow-acknowledgements.plist */,
+				F2F68C70A89B8CC17E953138C38E3B82 /* Pods-StackOverflow-dummy.m */,
+				F3D6EF4A04CE2A103D1E37C97B064B0B /* Pods-StackOverflow-frameworks.sh */,
+				FFC75D326A23056D887DABEA976F1282 /* Pods-StackOverflow-Info.plist */,
+				B9D95BB401CFF85EC8A2ED11EF9986E6 /* Pods-StackOverflow-umbrella.h */,
+				5901E708C733EE9DBAC26D74C76B30F8 /* Pods-StackOverflow.debug.xcconfig */,
+				5926B5BF1712D98394CAFF41F213EC6C /* Pods-StackOverflow.release.xcconfig */,
+			);
+			name = "Pods-StackOverflow";
+			path = "Target Support Files/Pods-StackOverflow";
+			sourceTree = "<group>";
+		};
+		9A424981A4EBA429EFB5AC988383F1C3 /* Pods-StackOverflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0135C751BB0959F81C4EA641F441449 /* Pods-StackOverflowUITests.modulemap */,
+				AE28744401A7AB82D7C5FC7C4747C4E5 /* Pods-StackOverflowUITests-acknowledgements.markdown */,
+				6501F00FB7AD3D32322EBA7C4BC089CB /* Pods-StackOverflowUITests-acknowledgements.plist */,
+				01457C06CC43B2AFEED7DE00E9E4F2DA /* Pods-StackOverflowUITests-dummy.m */,
+				94BE7FB2C62FC3073676E087F871B96F /* Pods-StackOverflowUITests-Info.plist */,
+				ADA33F2D55222AA8D6850D51F10DE1EB /* Pods-StackOverflowUITests-umbrella.h */,
+				71A3E777A303A494358593F1FA89771E /* Pods-StackOverflowUITests.debug.xcconfig */,
+				3CF61A8AFAD9B0B2261FB774BFE4301A /* Pods-StackOverflowUITests.release.xcconfig */,
+			);
+			name = "Pods-StackOverflowUITests";
+			path = "Target Support Files/Pods-StackOverflowUITests";
+			sourceTree = "<group>";
+		};
+		B0D5C67DFA15C506975D357AD91CF2D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8BEBE86093C1EC5364CAECF23BCD9 /* CoreLocation.framework */,
+				7F1BF083FEC3D154CB2AAC49EDBC1459 /* Foundation.framework */,
+				86653B667F5FC3422EEE206E2E99BB81 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE41637A02055A39975395DC6447E437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91A685D11DCD27EA76A76D09A9DD388A /* ResourceBundle-TimeZoneLocate-TimeZoneLocate-Info.plist */,
+				6C2BC4C2A2BF3F386AA00099EC24170E /* TimeZoneLocate.modulemap */,
+				BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */,
+				75DE8EAEF39AE5CBA8AEF02B188FA725 /* TimeZoneLocate-dummy.m */,
+				D8B919DD79AB500D2ACF96A9D32D696C /* TimeZoneLocate-Info.plist */,
+				CFA2537BAE53BB338803F4B17124DF9F /* TimeZoneLocate-prefix.pch */,
+				81850D9899166F98753570ABFF13B086 /* TimeZoneLocate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TimeZoneLocate";
+			sourceTree = "<group>";
+		};
+		E181044BDFE5C8DAD40B87E0A80D9A4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				937B2C47D9097DE9EA762DC5B12C396C /* Pods-StackOverflow */,
+				3E50A35087ED58A60F91EA3ADE6B5159 /* Pods-StackOverflowTests */,
+				9A424981A4EBA429EFB5AC988383F1C3 /* Pods-StackOverflowUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E82C911D10B0E5FAA1B6C853C0F7D488 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0918FA29CA146C5F4B6FF7B014BAC680 /* timezones.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23547E06EBE57CA86A005F39B21CE309 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341DC9F849CCF486C59950848CB3305F /* Pods-StackOverflowTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C304E5DC703C1567BE87FDBCB1CB06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACF3770629CE271AC6CC82A51A42BB4 /* TimeZoneLocate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD9C063D7E8514A5C6924B42C5290642 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BF31D956A35DEBA0AC752632B3EF8D /* Pods-StackOverflowUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01001FF56B09DA8F8BDB6D0119239D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC5030052A944AD0A881A54923E80CE /* Pods-StackOverflow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F47319FF117FFF754F34B5BC2CA2FE0 /* Pods-StackOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9933A6D112CC77A3B32897FEB3AEB097 /* Build configuration list for PBXNativeTarget "Pods-StackOverflowTests" */;
+			buildPhases = (
+				23547E06EBE57CA86A005F39B21CE309 /* Headers */,
+				17A93A1D474378233E59E299B4F1CD4C /* Sources */,
+				BCCA159780858250FC3D9092D4F8F141 /* Frameworks */,
+				4F0E4961CAD242BDF8FDF2B5F89E765E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				539C4B65F1B2E97F2A0501E0E40EF094 /* PBXTargetDependency */,
+			);
+			name = "Pods-StackOverflowTests";
+			productName = "Pods-StackOverflowTests";
+			productReference = 3497804A60F8826AB183346777AE308D /* Pods_StackOverflowTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A785F8D5B1873ECAD1E3D47CB151A342 /* TimeZoneLocate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187820F3175EEC98A15A7CA1D797FBD7 /* Build configuration list for PBXNativeTarget "TimeZoneLocate" */;
+			buildPhases = (
+				36C304E5DC703C1567BE87FDBCB1CB06 /* Headers */,
+				863690D0AF973A3C767A80B3795B50B6 /* Sources */,
+				A780517DE08886EC0E30B90BCF16F701 /* Frameworks */,
+				CA5A3838F69C310A604151D382479601 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B226036E9915668386422091F66A37 /* PBXTargetDependency */,
+			);
+			name = TimeZoneLocate;
+			productName = TimeZoneLocate;
+			productReference = 5241EA4323F1757E2F02EEC378377F92 /* TimeZoneLocate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1FA21164111E4C5C8D02A943B4D46A3 /* Pods-StackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE80A58A433DA1A157B84EBB35567339 /* Build configuration list for PBXNativeTarget "Pods-StackOverflow" */;
+			buildPhases = (
+				E01001FF56B09DA8F8BDB6D0119239D5 /* Headers */,
+				C742D3564FC0D58A1994574F471393F2 /* Sources */,
+				7A3EBA18146A6E10A65E7D4FB961A326 /* Frameworks */,
+				A38E1A20ED50F490DDAB2C230E47FDFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DA5914C72C2786845AF614372D10DD /* PBXTargetDependency */,
+			);
+			name = "Pods-StackOverflow";
+			productName = "Pods-StackOverflow";
+			productReference = 49703AEF223FC09D261136E7EB143280 /* Pods_StackOverflow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D91AC2D59E765B34E670936229361EF3 /* TimeZoneLocate-TimeZoneLocate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195D7A270B47F30FDCF87277081ABC37 /* Build configuration list for PBXNativeTarget "TimeZoneLocate-TimeZoneLocate" */;
+			buildPhases = (
+				1D48CD2E6F209A479F1D11F523EC348C /* Sources */,
+				E2A4578EF3A9E9DA703BAE1F659A9F42 /* Frameworks */,
+				E23DAB8760EED7C5660AEB38E327F5F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeZoneLocate-TimeZoneLocate";
+			productName = "TimeZoneLocate-TimeZoneLocate";
+			productReference = 3814633DB3047358182E17F5BC2A850A /* TimeZoneLocate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FBBB77EB7E20F981E9423A1433223838 /* Pods-StackOverflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADBEDA3FE948E0B13BAC86F5A51FD78 /* Build configuration list for PBXNativeTarget "Pods-StackOverflowUITests" */;
+			buildPhases = (
+				BD9C063D7E8514A5C6924B42C5290642 /* Headers */,
+				19952A442AD8FDE1957395577426DA1B /* Sources */,
+				0EC1C95A9C053D4E98CBA2E3C99F227B /* Frameworks */,
+				332E3A8B72CB86C530D708E1054E9947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08972EE7F3E7B36C0D30932D5C4134C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-StackOverflowUITests";
+			productName = "Pods-StackOverflowUITests";
+			productReference = C78BCFF091465007FB7561031955F122 /* Pods_StackOverflowUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6D517ED7161B1BA30EB93A37EEDD0F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1FA21164111E4C5C8D02A943B4D46A3 /* Pods-StackOverflow */,
+				9F47319FF117FFF754F34B5BC2CA2FE0 /* Pods-StackOverflowTests */,
+				FBBB77EB7E20F981E9423A1433223838 /* Pods-StackOverflowUITests */,
+				A785F8D5B1873ECAD1E3D47CB151A342 /* TimeZoneLocate */,
+				D91AC2D59E765B34E670936229361EF3 /* TimeZoneLocate-TimeZoneLocate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		332E3A8B72CB86C530D708E1054E9947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F0E4961CAD242BDF8FDF2B5F89E765E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38E1A20ED50F490DDAB2C230E47FDFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5A3838F69C310A604151D382479601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F0D5C14BEAA399936399629DFB2208 /* TimeZoneLocate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23DAB8760EED7C5660AEB38E327F5F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2480EF16CC087B4272EEDED0CF5A8EAE /* timezones.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17A93A1D474378233E59E299B4F1CD4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CA4CADB40F53D9A093BDD3F3425B6D /* Pods-StackOverflowTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19952A442AD8FDE1957395577426DA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3FBD7E4DF2B524C29848485288245 /* Pods-StackOverflowUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D48CD2E6F209A479F1D11F523EC348C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863690D0AF973A3C767A80B3795B50B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D85E561D59F9B245544DC7B1500E74D4 /* TimeZoneLocate-dummy.m in Sources */,
+				01219B3AB7F83A652FA3B16594DF31CE /* TimeZoneLocate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C742D3564FC0D58A1994574F471393F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06397207EFC249B9EDD83A4B3EBF19E7 /* Pods-StackOverflow-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08972EE7F3E7B36C0D30932D5C4134C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StackOverflow";
+			target = D1FA21164111E4C5C8D02A943B4D46A3 /* Pods-StackOverflow */;
+			targetProxy = 7BC18866709259C8D3BCA062AA1C103F /* PBXContainerItemProxy */;
+		};
+		539C4B65F1B2E97F2A0501E0E40EF094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-StackOverflow";
+			target = D1FA21164111E4C5C8D02A943B4D46A3 /* Pods-StackOverflow */;
+			targetProxy = 2A476D5434936116EF7799806E8B8754 /* PBXContainerItemProxy */;
+		};
+		81B226036E9915668386422091F66A37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TimeZoneLocate-TimeZoneLocate";
+			target = D91AC2D59E765B34E670936229361EF3 /* TimeZoneLocate-TimeZoneLocate */;
+			targetProxy = E81F557F75DB104B2BD6579BF166CD27 /* PBXContainerItemProxy */;
+		};
+		90DA5914C72C2786845AF614372D10DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimeZoneLocate;
+			target = A785F8D5B1873ECAD1E3D47CB151A342 /* TimeZoneLocate */;
+			targetProxy = 2E44E096848B9CAC1498CE6230CD824A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D027BD8219E71225D197BACF78F7C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C26C929ECB45411ED4EDF8089D4B81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5926B5BF1712D98394CAFF41F213EC6C /* Pods-StackOverflow.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflow/Pods-StackOverflow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflow/Pods-StackOverflow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BC8B6CBED6FB51B6522B9BEE8427B63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimeZoneLocate";
+				INFOPLIST_FILE = "Target Support Files/TimeZoneLocate/ResourceBundle-TimeZoneLocate-TimeZoneLocate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TimeZoneLocate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		77E8E1CECBEC5918AE35657D85055476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeZoneLocate/TimeZoneLocate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeZoneLocate/TimeZoneLocate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimeZoneLocate/TimeZoneLocate.modulemap";
+				PRODUCT_MODULE_NAME = TimeZoneLocate;
+				PRODUCT_NAME = TimeZoneLocate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FB57296A2B59949708C2B492C4646D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6E5AE336AB0FF6828F313857BCA78A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF1C4C3E9D4AE74791E3D82908CE4CB3 /* Pods-StackOverflowTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEC08239B4D8A3A0764B2ABC35B0CE78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeZoneLocate/TimeZoneLocate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeZoneLocate/TimeZoneLocate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimeZoneLocate/TimeZoneLocate.modulemap";
+				PRODUCT_MODULE_NAME = TimeZoneLocate;
+				PRODUCT_NAME = TimeZoneLocate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCB6DA674DE02148CF54011BA7F61A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5901E708C733EE9DBAC26D74C76B30F8 /* Pods-StackOverflow.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflow/Pods-StackOverflow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflow/Pods-StackOverflow.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CDF4EF1A1A6240963D251D08C444A9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF61A8AFAD9B0B2261FB774BFE4301A /* Pods-StackOverflowUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D36818A15638AFF5856595FC6FBFC43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A3E777A303A494358593F1FA89771E /* Pods-StackOverflowUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflowUITests/Pods-StackOverflowUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F02E953FD70A59681241C5C1665DDFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9123DFBA2DA36ABEE4038A8AB7A686 /* TimeZoneLocate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimeZoneLocate";
+				INFOPLIST_FILE = "Target Support Files/TimeZoneLocate/ResourceBundle-TimeZoneLocate-TimeZoneLocate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TimeZoneLocate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		FC8AED3CE6E539C26B787F1A4DE83E98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDA2E4A84922D98DE94E7078AC4D2BC /* Pods-StackOverflowTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StackOverflowTests/Pods-StackOverflowTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187820F3175EEC98A15A7CA1D797FBD7 /* Build configuration list for PBXNativeTarget "TimeZoneLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC08239B4D8A3A0764B2ABC35B0CE78 /* Debug */,
+				77E8E1CECBEC5918AE35657D85055476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195D7A270B47F30FDCF87277081ABC37 /* Build configuration list for PBXNativeTarget "TimeZoneLocate-TimeZoneLocate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC8B6CBED6FB51B6522B9BEE8427B63 /* Debug */,
+				F02E953FD70A59681241C5C1665DDFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADBEDA3FE948E0B13BAC86F5A51FD78 /* Build configuration list for PBXNativeTarget "Pods-StackOverflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36818A15638AFF5856595FC6FBFC43A /* Debug */,
+				CDF4EF1A1A6240963D251D08C444A9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D027BD8219E71225D197BACF78F7C1 /* Debug */,
+				8FB57296A2B59949708C2B492C4646D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9933A6D112CC77A3B32897FEB3AEB097 /* Build configuration list for PBXNativeTarget "Pods-StackOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC8AED3CE6E539C26B787F1A4DE83E98 /* Debug */,
+				B6E5AE336AB0FF6828F313857BCA78A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE80A58A433DA1A157B84EBB35567339 /* Build configuration list for PBXNativeTarget "Pods-StackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB6DA674DE02148CF54011BA7F61A39 /* Debug */,
+				1C26C929ECB45411ED4EDF8089D4B81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
